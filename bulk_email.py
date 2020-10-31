@@ -8,10 +8,10 @@ filename,msg=final_ui()
 print(filename,msg)
 smtp_ssl_host = 'smtp.gmail.com'  # smtp.mail.yahoo.com
 smtp_ssl_port = 465
-username = 'santoshwar.dhruv11@gmail.com'
-password = 'dhruvs123'
-sender = 'santoshwar.dhruv11@gmail.com'
-#targets = ['chaityavwcr07@gmail.com','santoshwar.dhruv11@gmail.com']
+username = ''
+password = ''
+sender = ''
+
 
 columns_name=["Name","email","Phone"]
 df=pd.read_csv(filename,names=columns_name)
